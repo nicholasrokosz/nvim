@@ -31,5 +31,6 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G")
 -- "move" buffers
 vim.keymap.set("n", "<leader>m", "<cmd>BufferLinePick<cr>")
 
--- use alt + arrows to resize splits TODO: Make this work
+-- TODO: Make this work
+-- use alt + arrows to resize splits
 -- vim.keymap.set("n", "<A-Left>", "<C-Left>")
