@@ -3,7 +3,7 @@
 -- Add any additional options here
 
 vim.o.background = "light"
-vim.g.zenbones = { lightness = "bright" }
+vim.g.zenbones = { lightness = "bright", transparent_background = true }
 vim.o.scrolloff = 8
 vim.o.rnu = false
 vim.o.formatoptions = "cro"
