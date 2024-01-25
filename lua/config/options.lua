@@ -11,3 +11,10 @@ vim.o.formatoptions = "cro"
 vim.cmd([[
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 ]])
+
+-- Neovide specific options
+vim.g.neovide_cursor_animate_command_line = false
+vim.g.neovide_padding_top = 25
+vim.g.neovide_padding_right = 25
+vim.g.neovide_fullscreen = true
+vim.g.neovide_cursor_animation_length = 0.06
