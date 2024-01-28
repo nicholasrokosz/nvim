@@ -1,5 +1,5 @@
 return {
-  'stevearc/conform.nvim',
+  "stevearc/conform.nvim",
   opts = {
     formatters_by_ft = {
       ["javascript"] = { "prettier" },
@@ -18,6 +18,7 @@ return {
       ["markdown.mdx"] = { "prettier" },
       ["graphql"] = { "prettier" },
       ["handlebars"] = { "prettier" },
+      ["haskell"] = { "fourmolu" },
     },
   },
 }
