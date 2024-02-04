@@ -27,6 +27,7 @@ return {
       "vimdoc",
       "yaml",
       "go",
+      "templ",
       "haskell",
     },
     incremental_selection = {
