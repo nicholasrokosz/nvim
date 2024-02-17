@@ -18,3 +18,5 @@ vim.g.neovide_padding_top = 25
 vim.g.neovide_padding_right = 25
 vim.g.neovide_fullscreen = true
 vim.g.neovide_cursor_animation_length = 0.06
+
+vim.filetype.add({ extension = { templ = "templ" } })
