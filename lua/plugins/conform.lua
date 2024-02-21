@@ -19,6 +19,7 @@ return {
       ["graphql"] = { "prettier" },
       ["handlebars"] = { "prettier" },
       ["haskell"] = { "fourmolu" },
+      ["c"] = { "clang_format" },
     },
   },
 }
