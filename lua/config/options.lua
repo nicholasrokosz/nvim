@@ -2,6 +2,7 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
+vim.o.termguicolors = true
 vim.o.background = "light"
 vim.g.zenbones = { lightness = "bright", transparent_background = true }
 vim.o.scrolloff = 8
