@@ -20,6 +20,7 @@ return {
       ["handlebars"] = { "prettier" },
       ["haskell"] = { "fourmolu" },
       ["c"] = { "clang_format" },
+      ["elixir"] = { "mix" },
     },
   },
 }
